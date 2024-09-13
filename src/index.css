@@ -1,0 +1,72 @@
+.app {
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.quote-card {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  position: relative;
+}
+
+.quote-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.quote-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.created-at {
+  color: gray;
+  font-size: 12px;
+}
+
+/* Floating Action Button */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.floating-button:hover {
+  background-color: #3700b3;
+}
